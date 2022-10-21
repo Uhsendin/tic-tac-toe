@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: rgb(247, 239, 247);
+    color: rgb(44, 41, 44);
+    font-family: 'Fuzzy Bubbles', sans-serif;
+}
+#main-header {
+    text-align: center;
+    padding: 2rem 5%;
+    background-color: rgb(140, 0, 255);
+    color: white;
+}
+
+.btn {
+font: inherit;
+border: 1px solid rgb(140, 0, 255);
+cursor: pointer;
+padding: 0.5rem 1.5rem;
+color: white;
+background-color: rgb(140, 0, 255);
+border-radius: 4px;
+}
+.btn-alt {
+    color: rgb(140, 0, 255);
+background-color: transparent;
+border-color: transparent;
+}
+
+.btn:hover {
+background-color: rgb(83, 13, 175);
+border-color: rgb(83, 13, 175);
+}
+.btn-alt:hover {
+background-color: rgb(230, 201, 252);
+border-color: transparent;
+}
