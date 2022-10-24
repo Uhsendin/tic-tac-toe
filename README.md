@@ -1,2 +1,5 @@
 # tic-tac-toe
-Tic, Tac, Toe builting using JavaScript!
+Here is a very simple Tic, Tac, Toe game!
+Built using HTML5, CSS and JavaScript.
+
+© Uhsendin
