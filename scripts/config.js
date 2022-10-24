@@ -20,5 +20,6 @@ function savePlayerConfig(event) {
     errorsOutput.textContent = "Enter a valid name!"
     return;
   }
+  
  
 }
