@@ -3,6 +3,7 @@ function startNewGame() {
         alert("Set player names for both players!")
         return;
     }
+    activePlayerName.textContent =players[activePlayer].name;
     gameArea.style.display = "block"
 }
 
@@ -12,6 +13,7 @@ function switchPlayer() {
     } else {
         activePlayer = 0
     }
+    activePlayerName.textContent =players[activePlayer].name;
 }
 
 function selectGameField(event) {

@@ -17,14 +17,14 @@ const backdrop = document.getElementById("backdrop");
 const formElement = document.querySelector("form");
 const errorsOutput = document.getElementById("config-errors");
 const gameArea = document.getElementById("active-game")
-
+const activePlayerName = document.getElementById("active-player-name")
 
 const editPlayer1Btn = document.getElementById("edit-player-1-btn");
 const editPlayer2Btn = document.getElementById("edit-player-2-btn");
 const cancelConfigBtn = document.getElementById("cancel-config-btn");
 const startNewGameBtn = document.getElementById("start-game");
 const gameFieldElements = document.querySelectorAll("#game-board li")
-console.log(gameFieldElements)
+
 
 editPlayer1Btn.addEventListener("click", openPlayerConfig);
 editPlayer2Btn.addEventListener("click", openPlayerConfig);
