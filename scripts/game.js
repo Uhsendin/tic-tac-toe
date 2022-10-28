@@ -22,6 +22,11 @@ function selectGameField(event) {
     const selectedColumn = selectedField.dataset.col -1;
     const selectedRow = selectedField.dataset.row -1;
 
+    if(gameData[selectedRow][selectedColumn] > 0) {
+        alert("Choose a spot that hasn't been selected yet.")
+        return;
+    }
+
     selectedField.textContent = players[activePlayer].symbol;
     selectedField.classList.add("disabled")
 
